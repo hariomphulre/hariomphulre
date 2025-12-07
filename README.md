@@ -11,6 +11,21 @@
 
 --- -->
 
+<!--
+
+![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=HariomPhulre)
+![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=HariomPhulre&theme=dark)
+
+![LeetCode Rating Graph](https://leetcard.jacoblin.cool/Hariom_Phulre?theme=dark&ext=contest)
+![CodeChef Stats](https://github-profile-summary-cards.vercel.app/api/cards/codechef?username=hariom_phlure&theme=dark)
+
+
+[![CodeChef Profile](https://codechef-readme-stats.onrender.com/hariom_phulre)](https://www.codechef.com/users/hariom_phulre)
+
+
+
+
+
 
 <!--
 **hariomphulre/hariomphulre** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
