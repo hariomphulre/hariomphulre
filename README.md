@@ -1,4 +1,7 @@
 # Hello, I'm Hariom
+### 📬 Connect with me  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_USERNAME/)
+[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@gmail.com)
 
 <!--
 **hariomphulre/hariomphulre** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
