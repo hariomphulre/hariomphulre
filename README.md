@@ -14,14 +14,16 @@
 <div style="
   display: flex;
   flex-direction: row;
-  gap: 16px;
+  gap: 0px;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 ">
-  <a href="https://leetcode.com/u/Hariom_Phulre/" target="_blank"><img src="https://leetcard.jacoblin.cool/Hariom_Phulre?theme=dark&ext=contest" alt="LeetCode Rating Graph" style="height: 280px;" /></a>
-  <a href="https://codeforces.com/profile/HariomPhulre" target="_blank"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=HariomPhulre&theme=dark" alt="Codeforces Stats Dark" style="height:280px;"/></a>
-  <img src="https://github.com/hariomphulre/hariomphulre/blob/main/Screenshot%202025-12-08%20131939.png" alt="My Picture" style="height: 280px; width: 600px;" />
+  <a href="https://leetcode.com/u/Hariom_Phulre/" target="_blank"><img src="https://leetcard.jacoblin.cool/Hariom_Phulre?theme=dark&ext=contest" alt="LeetCode Rating Graph" style="height: 250px;" /></a>
+  <a href="https://codeforces.com/profile/HariomPhulre" target="_blank"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=HariomPhulre" alt="Codeforces Stats Dark" style="height:auto; width: 250px"/></a>
+  <img src="https://github.com/hariomphulre/hariomphulre/blob/main/Screenshot%202025-12-08%20131939.png" alt="My Picture" style="height: 250px; width:250px;" />
+  <img src="https://github.com/hariomphulre/hariomphulre/blob/main/Screenshot%202025-12-08%20132022.png" alt="My Picture" style="height: 250px; width:186px;" />
+  
 </div>
 
 
