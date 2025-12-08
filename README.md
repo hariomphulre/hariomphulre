@@ -1,3 +1,4 @@
+<!--
 <h1 align="center"><strong>Hello, I'm Hariom Phulre</strong></h1>
 <p align="center">Software Engineer | Competitve Programmer</p>
 
@@ -10,7 +11,15 @@
 </p>
 
 ---
+### About Me
+- DSA, React.js, AWS, Linux
+- B.E. in Computer Engineering (2024 - 2028)
+- Dr. D.Y. Patil Institute of Technology, Pune
+- CGPA - 9.02 / 10
 
+---
+
+### Coding Profiles
 <div style="
   display: flex;
   flex-direction: row;
@@ -24,7 +33,27 @@
   <a href="https://www.codechef.com/users/hariom_phulre" target="_blank"><img src="https://codechef-stats-api.vercel.app/api/card?username=hariom_phulre" alt="Codechef stats" style="height: 200px;"/></a>
 </div>
 
+---
 
+### Skills
+- Languages: C, C++, Python, JavaScript, Shell script
+- Frontend: HTML, CSS Tailwind, React.js
+- Backend:
+- Database: Firebase
+- Cloud: AWS (EC2, S3)
+- Others: Git & Github, Docker, Linux
+  
+---
+
+### Projects
+
+---
+
+### Achivements
+
+---
+
+### Certificates
 
 
 
