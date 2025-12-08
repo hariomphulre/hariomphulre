@@ -21,24 +21,9 @@
 ">
   <a href="https://leetcode.com/u/Hariom_Phulre/" target="_blank"><img src="https://leetcard.jacoblin.cool/Hariom_Phulre?theme=dark&ext=contest" alt="LeetCode Rating Graph" style="height: 280px;" /></a>
   <a href="https://codeforces.com/profile/HariomPhulre" target="_blank"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=HariomPhulre&theme=dark" alt="Codeforces Stats Dark" style="height:280px;"/></a>
+  <img src="https://github.com/hariomphulre/hariomphulre/blob/main/Screenshot%202025-12-08%20130723.png" alt="My Picture" style="height: 280px; width: 600px;" />
 </div>
 
-<a href="https://www.hackerrank.com/profile/hariomphulre" target="_blank">
-  <img
-    src="https://img.shields.io/badge/HackerRank_Profile-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"
-    alt="HackerRank Profile"
-    style="height: 200px;"
-  />
-</a>
-
-<a href="https://www.codechef.com/users/hariom_phulre" target="_blank">
-  <img 
-    src="https://img.shields.io/badge/CodeChef-000000?style=for-the-badge&logo=codechef&logoColor=white"
-    alt="CodeChef Profile"
-    style="height: 200px;"
-  />
-  <img src="YOUR_IMAGE_LINK_HERE" alt="My Picture" style="height: 200px;" />
-</a>
 
 
 
