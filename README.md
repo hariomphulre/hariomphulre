@@ -20,14 +20,9 @@
   flex-wrap: wrap;
 ">
   <a href="https://leetcode.com/u/Hariom_Phulre/" target="_blank"><img src="https://leetcard.jacoblin.cool/Hariom_Phulre?theme=dark&ext=contest" alt="LeetCode Rating Graph" style="height: 250px;" /></a>
-  <a href="https://codeforces.com/profile/HariomPhulre" target="_blank"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=HariomPhulre" alt="Codeforces Stats Dark" style="height:auto; width: 250px"/></a>
-  <img src="https://github.com/hariomphulre/hariomphulre/blob/main/Screenshot%202025-12-08%20131939.png" alt="My Picture" style="height: 250px; width:250px;" />
-  <img src="https://github.com/hariomphulre/hariomphulre/blob/main/Screenshot%202025-12-08%20132022.png" alt="My Picture" style="height: 250px; width:186px;" />
-  
+  <a href="https://codeforces.com/profile/HariomPhulre" target="_blank"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=HariomPhulre" alt="Codeforces Stats Dark" style="height: 250px;"/></a>
+  <a href="https://www.codechef.com/users/hariom_phulre" target="_blank"><img src="https://codechef-stats-api.vercel.app/api/card?username=hariom_phulre" alt="Codechef stats" style="height: 250px;"/></a>
 </div>
-
-
-
 
 
 
