@@ -1,4 +1,4 @@
-<!-- <h1 align="center"><strong>Hello, I'm Hariom Phulre</strong></h1>
+<h1 align="center"><strong>Hello, I'm Hariom Phulre</strong></h1>
 <p align="center">Software Engineer | Competitve Programmer</p>
 
 <p align="center">
@@ -9,18 +9,38 @@
   <a href=""><img src="https://img.shields.io/badge/Codechef-001AFF?&style=for-the-badge&logo=Codechef&logoColor=white" /></a>
 </p>
 
---- -->
+---
 
-<!--
+<div style="
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+">
+  <a href="https://leetcode.com/u/Hariom_Phulre/" target="_blank"><img src="https://leetcard.jacoblin.cool/Hariom_Phulre?theme=dark&ext=contest" alt="LeetCode Rating Graph" style="height: 280px;" /></a>
+  <a href="https://codeforces.com/profile/HariomPhulre" target="_blank"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=HariomPhulre&theme=dark" alt="Codeforces Stats Dark" style="height:280px;"/></a>
+</div>
 
-![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=HariomPhulre)
-![Codeforces Stats](https://codeforces-readme-stats.vercel.app/api/card?username=HariomPhulre&theme=dark)
+<a href="https://www.hackerrank.com/profile/hariomphulre" target="_blank">
+  <img
+    src="https://img.shields.io/badge/HackerRank_Profile-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"
+    alt="HackerRank Profile"
+    style="height: 200px;"
+  />
+</a>
 
-![LeetCode Rating Graph](https://leetcard.jacoblin.cool/Hariom_Phulre?theme=dark&ext=contest)
-![CodeChef Stats](https://github-profile-summary-cards.vercel.app/api/cards/codechef?username=hariom_phlure&theme=dark)
+<a href="https://www.codechef.com/users/hariom_phulre" target="_blank">
+  <img 
+    src="https://img.shields.io/badge/CodeChef-000000?style=for-the-badge&logo=codechef&logoColor=white"
+    alt="CodeChef Profile"
+    style="height: 200px;"
+  />
+  <img src="YOUR_IMAGE_LINK_HERE" alt="My Picture" style="height: 200px;" />
+</a>
 
 
-[![CodeChef Profile](https://codechef-readme-stats.onrender.com/hariom_phulre)](https://www.codechef.com/users/hariom_phulre)
 
 
 
