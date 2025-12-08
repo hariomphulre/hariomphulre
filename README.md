@@ -1,4 +1,4 @@
-
+<!--
 <h1 align="center"><strong>Hello, I'm Hariom Phulre</strong></h1>
 <p align="center">Software Engineer | Competitve Programmer</p>
 
@@ -51,32 +51,9 @@
 
 ### Achivements
 
-<div style="
-  display: flex;
-  flex-direction: row;
-  gap: 0px;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-">
-  <div style="
-  display: flex;
-  flex-direction: column;
-  gap: 0px;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-">
-    <pre>
-- 🏆 National Level Hackathon Winner
-- Top 5 at International Hackathon
-    </pre>
-  </div>
-  <div>
-    
-  </div>
-
-</div>
+| | |
+|---|---|
+| - 🏆 National Level Hackathon Winner<br>- Top 5 at International Hackathon | <img src="https://github.com/hariomphulre/hariomphulre/blob/main/Inceptia.jpg" width="200"/> |
 
   
 ---
