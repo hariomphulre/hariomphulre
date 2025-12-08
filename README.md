@@ -21,7 +21,7 @@
 ">
   <a href="https://leetcode.com/u/Hariom_Phulre/" target="_blank"><img src="https://leetcard.jacoblin.cool/Hariom_Phulre?theme=dark&ext=contest" alt="LeetCode Rating Graph" style="height: 280px;" /></a>
   <a href="https://codeforces.com/profile/HariomPhulre" target="_blank"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=HariomPhulre&theme=dark" alt="Codeforces Stats Dark" style="height:280px;"/></a>
-  <img src="https://github.com/hariomphulre/hariomphulre/blob/main/Screenshot%202025-12-08%20130723.png" alt="My Picture" style="height: 280px; width: 600px;" />
+  <img src="https://github.com/hariomphulre/hariomphulre/blob/main/Screenshot%202025-12-08%20131939.png" alt="My Picture" style="height: 280px; width: 600px;" />
 </div>
 
 
