@@ -1,4 +1,4 @@
-<!--
+
 <h1 align="center"><strong>Hello, I'm Hariom Phulre</strong></h1>
 <p align="center">Software Engineer | Competitve Programmer</p>
 
@@ -7,7 +7,7 @@
   <a href="mailto:hariiomphullre@gmail.com"><img src="https://img.shields.io/badge/Email-001AFF?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://leetcode.com/u/Hariom_Phulre/"><img src="https://img.shields.io/badge/-LeetCode-001AFF?style=for-the-badge&logo=LeetCode&logoColor=white" /></a>
   <a href="https://codeforces.com/profile/HariomPhulre"><img src="https://img.shields.io/badge/Codeforces-001AFF?style=for-the-badge&logo=Codeforces&logoColor=white" /></a>
-  <a href=""><img src="https://img.shields.io/badge/Codechef-001AFF?&style=for-the-badge&logo=Codechef&logoColor=white" /></a>
+  <a href="https://www.codechef.com/users/hariom_phulre"><img src="https://img.shields.io/badge/Codechef-001AFF?&style=for-the-badge&logo=Codechef&logoColor=white" /></a>
 </p>
 
 ---
@@ -34,7 +34,7 @@
 </div>
 
 ---
-
+<!--
 ### Skills
 - Languages: C, C++, Python, JavaScript, Shell script
 - Frontend: HTML, CSS Tailwind, React.js
