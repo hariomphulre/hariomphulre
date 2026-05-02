@@ -14,13 +14,13 @@
 ### About Me
 <h3>
 <pre>
-- DSA/Competitive Programmer                                                    .--.      _
-- React.js, AWS, Linux                                                         |o_o |    | |
-- B.E. in Computer Engineering (2024 - 2028)                                   |:_/ |    | |
-- Dr. D.Y. Patil Institute of Technology, Pune                                //   \ \   | |
-- CGPA - 9.02 / 10                                                           (|     | )  |_|
-                                                                            /'\_   _/`\   _
-                                                                            \___)=(___/  (_)
+- DSA/Competitive Programmer                                                .--.      _
+- React.js, AWS, Linux                                                     |o_o |    | |
+- B.E. in Computer Engineering (2024 - 2028)                               |:_/ |    | |
+- Dr. D.Y. Patil Institute of Technology, Pune                            //   \ \   | |
+- CGPA - 9.02 / 10                                                       (|     | )  |_|
+                                                                        /'\_   _/`\   _
+                                                                        \___)=(___/  (_)
 
 </pre>
 </h3>
