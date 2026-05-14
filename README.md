@@ -64,7 +64,7 @@
 ">
   <a href="https://leetcode.com/u/Hariom_Phulre/" target="_blank"><img src="https://leetcard.jacoblin.cool/Hariom_Phulre?theme=dark&ext=contest" alt="LeetCode Rating Graph" style="height: 200px;" /></a>
   <a href="https://codeforces.com/profile/HariomPhulre" target="_blank"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=HariomPhulre" alt="Codeforces Stats Dark" style="height: 200px;"/></a>
-  <a href="https://www.codechef.com/users/hariom_phulre" target="_blank"><img src="https://codechef-stats-api.vercel.app/api/card?username=hariom_phulre&v=2" alt="CodeChef stats" style="height: 200px;"/></a>
+  <a href="https://www.codechef.com/users/hariom_phulre" target="_blank"><img src="https://codechef-stats-api.vercel.app/api/card?username=hariom_phulre&v=3" alt="CodeChef stats" style="height: 200px;"/></a>
 </div>
 
 ---
