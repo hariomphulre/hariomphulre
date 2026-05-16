@@ -105,19 +105,32 @@ def format_markdown_output(prs):
 
     return content
 
+# def update_readme(new_content):
+#     with open("README.md", "r", encoding="utf-8") as file:
+#         readme_contents = file.read()
+
+#     # Regex to find the space between the markers
+#     pattern = re.compile(r"(<!-- START_MERGED_PRS -->\n).*?(\n<!-- END_MERGED_PRS -->)", re.DOTALL)
+    
+#     # Replace the old content with the newly generated markdown
+#     updated_readme = pattern.sub(rf"\g<1>{new_content}\g<2>", readme_contents)
+
+#     with open("README.md", "w", encoding="utf-8") as file:
+#         file.write(updated_readme)
+
 def update_readme(new_content):
     with open("README.md", "r", encoding="utf-8") as file:
         readme_contents = file.read()
 
-    # Regex to find the space between the markers
-    pattern = re.compile(r"(<!-- START_MERGED_PRS -->\n).*?(\n<!-- END_MERGED_PRS -->)", re.DOTALL)
+    # Using a more forgiving regex that ignores surrounding whitespace/newlines
+    pattern = re.compile(r"().*?()", re.DOTALL | re.IGNORECASE)
     
-    # Replace the old content with the newly generated markdown
-    updated_readme = pattern.sub(rf"\g<1>{new_content}\g<2>", readme_contents)
+    # Inject the new content with guaranteed newlines
+    updated_readme = pattern.sub(rf"\1\n{new_content}\n\2", readme_contents)
 
     with open("README.md", "w", encoding="utf-8") as file:
         file.write(updated_readme)
-
+        
 if __name__ == "__main__":
     print("Fetching merged PRs...")
     raw_prs = fetch_prs()
