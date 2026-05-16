@@ -8,10 +8,7 @@ TOKEN = os.environ.get("GH_TOKEN")
 # --- CONFIGURATION ---
 # ONLY PRs from these specific repositories will be shown.
 # Format must be "owner/repository-name"
-TARGET_REPOS = [
-    "facebook/react",               # Example: replace with actual target repos
-    "torvalds/linux", 
-    "some-org/some-awesome-repo",
+TARGET_REPOS = [ 
     "archlinux/archinstall",
     "nlohmann/json",
 ]
@@ -93,8 +90,7 @@ def format_markdown_output(prs):
     other_prs = prs[TOP_COUNT:]
 
     # Build the main section for the Top 5
-    content = "### 🏆 Top Contributions\n\n"
-    content += generate_table_string(top_prs)
+    content = generate_table_string(top_prs)
 
     # If there are more than 5, wrap the rest in a collapsible <details> tag
     if other_prs:
@@ -105,32 +101,44 @@ def format_markdown_output(prs):
 
     return content
 
-# def update_readme(new_content):
-#     with open("README.md", "r", encoding="utf-8") as file:
-#         readme_contents = file.read()
-
-#     # Regex to find the space between the markers
-#     pattern = re.compile(r"(<!-- START_MERGED_PRS -->\n).*?(\n<!-- END_MERGED_PRS -->)", re.DOTALL)
-    
-#     # Replace the old content with the newly generated markdown
-#     updated_readme = pattern.sub(rf"\g<1>{new_content}\g<2>", readme_contents)
-
-#     with open("README.md", "w", encoding="utf-8") as file:
-#         file.write(updated_readme)
-
 def update_readme(new_content):
     with open("README.md", "r", encoding="utf-8") as file:
         readme_contents = file.read()
 
-    # Using a more forgiving regex that ignores surrounding whitespace/newlines
-    pattern = re.compile(r"().*?()", re.DOTALL | re.IGNORECASE)
+    # 1. Find the heading that contains "Top Contributions" (handles emojis automatically)
+    header_match = re.search(r'(#{1,6}\s*.*?Top Contributions.*?)\n', readme_contents, re.IGNORECASE)
     
-    # Inject the new content with guaranteed newlines
-    updated_readme = pattern.sub(rf"\1\n{new_content}\n\2", readme_contents)
+    if not header_match:
+        print("Error: Could not find the 'Top Contributions' heading in README.md")
+        return
+
+    # The exact position where the content *after* the header starts
+    start_idx = header_match.end()
+
+    # 2. Find the NEXT horizontal rule (---) to know where to stop
+    # This looks for a newline followed by at least 3 dashes
+    next_divider_match = re.search(r'\n\s*---\s*(?=\n|$)', readme_contents[start_idx:])
+    
+    if next_divider_match:
+        # We found the ---, stop replacing right before it
+        end_idx = start_idx + next_divider_match.start()
+        after_content = readme_contents[end_idx:]
+    else:
+        # There is no --- divider, so this replaces everything to the end of the file
+        after_content = "\n" 
+
+    # 3. Stitch it all together: Everything above + New Table + Everything below
+    updated_readme = (
+        readme_contents[:start_idx] 
+        + "\n" 
+        + new_content 
+        + "\n" 
+        + after_content
+    )
 
     with open("README.md", "w", encoding="utf-8") as file:
         file.write(updated_readme)
-        
+
 if __name__ == "__main__":
     print("Fetching merged PRs...")
     raw_prs = fetch_prs()
