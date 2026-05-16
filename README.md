@@ -80,19 +80,6 @@
 
 
 
-
-<h1></h1>
-
-### Projects
-
-<!--
-### Skills
-- Languages: C, C++, Python, JavaScript, Shell script
-- Frontend: HTML, CSS Tailwind, React.js
-- Backend:
-- Database: Firebase
-- Cloud: AWS (EC2, S3)
-- Others: Git & Github, Docker, Linux
   
 ---
 
