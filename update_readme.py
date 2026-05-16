@@ -263,11 +263,9 @@ def generate_card_string(pr_list):
         
         total_comments = pr["comments"]["totalCount"] + pr["reviews"]["totalCount"]
         
-        # Format the date: "May 11, 2026"
         date_obj = datetime.strptime(pr["createdAt"], "%Y-%m-%dT%H:%M:%SZ")
         date_str = f"{date_obj.strftime('%b')} {date_obj.day}, {date_obj.year}"
         
-        # Process the description body
         body = pr["bodyText"].replace("\n", " ").strip()
         if len(body) > 130:
             body = body[:127] + "..."
@@ -275,7 +273,6 @@ def generate_card_string(pr_list):
         if not body:
             body = "_No description provided._"
         else:
-            # Dynamically convert issue tags (e.g., #5103) into clickable GitHub links
             body = re.sub(r'#(\d+)', rf'[#\1](https://github.com/{repo}/pull/\1)', body)
 
         icon_merge = '<img src="https://api.iconify.design/octicon/git-merge-16.svg?color=%238250df" width="16" height="16" alt="merged" />'
@@ -284,11 +281,8 @@ def generate_card_string(pr_list):
         icon_fork = '<img src="https://api.iconify.design/octicon/repo-forked-16.svg?color=%238b949e" width="14" height="14" alt="forks" />'
         icon_comment = '<img src="https://api.iconify.design/octicon/comment-16.svg?color=%238b949e" width="14" height="14" alt="comments" />'
 
-        # Pushing the date far right using non-breaking spaces
-        spacer = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-
-        # Build UI
-        content += f"{icon_repo} Created a pull request in **[{repo}](https://github.com/{repo})** {spacer} {date_str}\n"
+        # Updated First Line: Bullet point added, non-breaking spaces removed, and date wrapped in <sub>
+        content += f"{icon_repo} Created a pull request in **[{repo}](https://github.com/{repo})** &nbsp;•&nbsp; <sub>{date_str}</sub>\n"
         content += f"> {icon_merge} &nbsp; **[{title}]({url})**\n>\n"
         content += f"> {body}\n>\n"
         content += f"> `+{additions}` `-{deletions}` lines changed &nbsp;•&nbsp; {icon_star} {stars} &nbsp; {icon_fork} {forks} &nbsp;•&nbsp; {icon_comment} {total_comments}\n\n"
