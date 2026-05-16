@@ -283,10 +283,10 @@ def generate_card_string(pr_list):
         icon_comment = '<img src="https://api.iconify.design/octicon/comment-16.svg?color=%238b949e" width="14" height="14" alt="comments" />'
 
         # Using the standard • text symbol for all dividers
-        content += f"> \n"
-        content += f"{icon_repo}  Merged a pull request in **[{repo}](https://github.com/{repo})** &nbsp;•&nbsp; {date_str}\n"
-        content += f" > {icon_merge} &nbsp; **[{title}]({url})**\n>\n"
-        content += f" > {body}\n>\n"
+        content += f" > \n"
+        content += f"{icon_repo} Merged a pull request in **[{repo}](https://github.com/{repo})** &nbsp;•&nbsp; {date_str}\n"
+        content += f" > {icon_merge} &nbsp; **[{title}]({url})**\n > \n"
+        content += f" > {body}\n > \n"
         content += f" > `+{additions}` `-{deletions}` lines changed &nbsp;•&nbsp; {icon_star} {stars} &nbsp; {icon_fork} {forks} &nbsp;•&nbsp; {icon_comment} {total_comments}\n\n"
         # content += "<br>\n\n"
         
