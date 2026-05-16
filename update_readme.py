@@ -275,19 +275,18 @@ def generate_card_string(pr_list):
         else:
             body = re.sub(r'#(\d+)', rf'[#\1](https://github.com/{repo}/pull/\1)', body)
 
-        # Official Icons + New Grey Dot Icon
+        # Official Icons only (reverted the dot back to standard text)
         icon_merge = '<img src="https://api.iconify.design/octicon/git-merge-16.svg?color=%238250df" width="16" height="16" alt="merged" />'
         icon_repo = '<img src="https://api.iconify.design/octicon/repo-16.svg?color=%238b949e" width="16" height="16" alt="repo" />'
         icon_star = '<img src="https://api.iconify.design/octicon/star-16.svg?color=%238b949e" width="14" height="14" alt="stars" />'
         icon_fork = '<img src="https://api.iconify.design/octicon/repo-forked-16.svg?color=%238b949e" width="14" height="14" alt="forks" />'
         icon_comment = '<img src="https://api.iconify.design/octicon/comment-16.svg?color=%238b949e" width="14" height="14" alt="comments" />'
-        icon_dot = '<img src="https://api.iconify.design/octicon/dot-fill-16.svg?color=%238b949e" width="12" height="12" alt="dot" />'
 
-        # Updated First Line: Reverted the font for the date, replaced the text dot with the grey SVG dot
-        content += f"{icon_repo} Created a pull request in **[{repo}](https://github.com/{repo})** &nbsp;{icon_dot}&nbsp; {date_str}\n"
+        # Using the standard • text symbol for all dividers
+        content += f"{icon_repo} Created a pull request in **[{repo}](https://github.com/{repo})** &nbsp;•&nbsp; {date_str}\n"
         content += f"> {icon_merge} &nbsp; **[{title}]({url})**\n>\n"
         content += f"> {body}\n>\n"
-        content += f"> `+{additions}` `-{deletions}` lines changed &nbsp;{icon_dot}&nbsp; {icon_star} {stars} &nbsp; {icon_fork} {forks} &nbsp;{icon_dot}&nbsp; {icon_comment} {total_comments}\n\n"
+        content += f"> `+{additions}` `-{deletions}` lines changed &nbsp;•&nbsp; {icon_star} {stars} &nbsp; {icon_fork} {forks} &nbsp;•&nbsp; {icon_comment} {total_comments}\n\n"
         content += "<br>\n\n"
         
     return content
