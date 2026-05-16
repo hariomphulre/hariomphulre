@@ -320,7 +320,8 @@ def update_readme(new_content):
 
     start_idx = header_match.end()
 
-    next_divider_match = re.search(r'\n\s*---\s*(?=\n|$)', readme_contents[start_idx:])
+    # next_divider_match = re.search(r'\n\s*---\s*(?=\n|$)', readme_contents[start_idx:])
+    next_divider_match = re.search(r'\n\s*<h1.*?>', readme_contents[start_idx:], re.IGNORECASE)
     
     if next_divider_match:
         end_idx = start_idx + next_divider_match.start()
