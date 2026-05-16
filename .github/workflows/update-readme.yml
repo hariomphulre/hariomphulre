@@ -1,0 +1,37 @@
+name: Update README with Merged PRs
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Allows you to manually click "Run workflow" in the Actions tab
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Crucial: Allows the action to commit changes to your repo
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Fetch Data and Update README
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python update_readme.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          # The script checks if there are actual changes before committing to avoid empty commits
+          git diff --quiet && git diff --staged --quiet || (git commit -m "docs: dynamically update merged PRs in README" && git push)
