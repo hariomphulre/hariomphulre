@@ -71,8 +71,15 @@
 
 ### Top Contributions
 
-<!-- START_MERGED_PRS -->
-<!-- END_MERGED_PRS -->
+<img src="https://api.iconify.design/octicon/repo-16.svg?color=%238b949e" width="16" height="16" alt="repo" />  Merged a pull request in **[nlohmann/json](https://github.com/nlohmann/json)** &nbsp;•&nbsp; May 11, 2026
+> <img src="https://api.iconify.design/octicon/git-merge-16.svg?color=%238250df" width="16" height="16" alt="merged" /> &nbsp; **[Fix GCC C++20 modules compilation #5103](https://github.com/nlohmann/json/pull/5164)**
+ > 
+> This PR fixes GCC C++20 modules compilation errors (issue [#5103](https://github.com/nlohmann/json/pull/5103)) that occur when nlohmann/json.hpp is included in a module preamble after importing other modules. What Changed  include/nlohmann/jso...
+ > 
+> `+39` `-7` lines changed &nbsp;•&nbsp; <img src="https://api.iconify.design/octicon/star-16.svg?color=%238b949e" width="14" height="14" alt="stars" /> 49706 &nbsp; <img src="https://api.iconify.design/octicon/repo-forked-16.svg?color=%238b949e" width="14" height="14" alt="forks" /> 7395 &nbsp;•&nbsp; <img src="https://api.iconify.design/octicon/comment-16.svg?color=%238b949e" width="14" height="14" alt="comments" /> 36
+
+
+
 
 ---
 
