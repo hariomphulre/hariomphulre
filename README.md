@@ -80,14 +80,6 @@
 
 
 
-  
-<h1></h1>
-
-<!--
-
-### Projects
-
-<p>- Smart Traffic Control & Surveillance System <a href="">Github</a> <a>Demo</a></p>
 ---
 
 ### Achivements
