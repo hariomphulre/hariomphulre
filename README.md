@@ -69,14 +69,14 @@
 
 ---
 
-### Contributions
+### Top Contributions
 
 <!-- START_MERGED_PRS -->
 <!-- END_MERGED_PRS -->
 
+---
 
-
-
+### Projects
 
 <!--
 ### Skills
