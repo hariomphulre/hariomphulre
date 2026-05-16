@@ -51,7 +51,7 @@
   </tr>
 </table> -->
 
----
+<h1></h1>
 
 ### Coding Profiles
 <div style="
@@ -67,7 +67,7 @@
   <a href="https://www.codechef.com/users/hariom_phulre" target="_blank"><img src="https://codechef-stats-api.vercel.app/api/card?username=hariom_phulre&v=3" alt="CodeChef stats" style="height: 200px;"/></a>
 </div>
 
----
+<h1></h1>
 
 ### Top Contributions
 
@@ -81,7 +81,7 @@
 
 
 
----
+<h1></h1>
 
 ### Projects
 
