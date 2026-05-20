@@ -104,9 +104,11 @@
 
 <!--
 ### Skills
-[![My Skills](https://skillicons.dev/icons?i=linux,archlinux,c,c++,js,ts,python&perline=3)](https://skillicons.dev)
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
-[![My Skills](https://skillicons.dev/icons?i=aws,gcp,azure,react,vue,flutter&perline=3)](https://skillicons.dev)
+[![Languages](https://skillicons.dev/icons?i=c,cpp,js,ts,python,bash,html&perline=7)](https://skillicons.dev)  
+[![Frontend](https://skillicons.dev/icons?i=tailwindcss,react,redux,nextjs,nodejs,express,fastapi&perline=7)](https://skillicons.dev)  
+[![Databases](https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,supabase&perline=5)](https://skillicons.dev)  
+[![DevOps](https://skillicons.dev/icons?i=docker,kubernetes,nginx,aws,linux,arch&perline=6)](https://skillicons.dev)  
+[![Tools](https://skillicons.dev/icons?i=git,github,postman,rabbitmq,raspberrypi&perline=5)](https://skillicons.dev)  
 
 
 ### Projects
