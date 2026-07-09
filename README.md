@@ -77,7 +77,10 @@
  > 
 > This PR fixes GCC C++20 modules compilation errors (issue [#5103](https://github.com/nlohmann/json/pull/5103)) that occur when nlohmann/json.hpp is included in a module preamble after importing other modules. What Changed  include/nlohmann/jso...
  > 
-> `+39` `-7` lines changed &nbsp;•&nbsp; <img src="https://api.iconify.design/octicon/star-16.svg?color=%238b949e" width="14" height="14" alt="stars" /> 50090 &nbsp; <img src="https://api.iconify.design/octicon/repo-forked-16.svg?color=%238b949e" width="14" height="14" alt="forks" /> 7422 &nbsp;•&nbsp; <img src="https://api.iconify.design/octicon/comment-16.svg?color=%238b949e" width="14" height="14" alt="comments" /> 36
+> `+39` `-7` lines changed &nbsp;•&nbsp; <img src="https://api.iconify.design/octicon/star-16.svg?color=%238b949e" width="14" height="14" alt="stars" /> 50093 &nbsp; <img src="https://api.iconify.design/octicon/repo-forked-16.svg?color=%238b949e" width="14" height="14" alt="forks" /> 7423 &nbsp;•&nbsp; <img src="https://api.iconify.design/octicon/comment-16.svg?color=%238b949e" width="14" height="14" alt="comments" /> 36
+
+
+
 
 
 
