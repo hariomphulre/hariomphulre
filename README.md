@@ -16,10 +16,11 @@
 ### About Me
 
 - Distributed Backend Engineer & Full Stack Dev.                        
-- 5x Hackathon & Codeathon Winner                                        
+- 5x Hackathon & Codeathon Winner
+- 1000+ DSA Problems Solved                                   
 - B.E. in Computer Engineering (2024 - 2028)                              
 - Dr. D.Y. Patil Institute of Technology, Pune
-- Building Scalable Production Ready Products/Projects  
+- Building Scalable Production Ready Products
 
 <h1></h1>
 
