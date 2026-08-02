@@ -15,7 +15,7 @@
 
 ### About Me
 
-- Distributed Backend Engineer, Full Stack Dev.                        
+- Distributed Backend Engineer & Full Stack Dev.                        
 - 5x Hackathon & Codeathon Winner                                        
 - B.E. in Computer Engineering (2024 - 2028)                              
 - Dr. D.Y. Patil Institute of Technology, Pune
@@ -36,6 +36,37 @@
   <a href="https://codeforces.com/profile/HariomPhulre" target="_blank"><img src="https://codeforces-readme-stats.vercel.app/api/card?username=HariomPhulre" alt="Codeforces Stats Dark" style="height: 200px;"/></a>
   <a href="https://www.codechef.com/users/hariom_phulre" target="_blank"><img src="https://codechef-stats-api.vercel.app/api/card?username=hariom_phulre&v=3" alt="CodeChef stats" style="height: 200px;"/></a>
 </div>
+
+<h1></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Languages</th>
+      <th align="left">Frameworks / Libraries</th>
+      <th align="left">Databases</th>
+      <th align="left">DevOps & Tools</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+        <img src="https://skillicons.dev/icons?i=c,cpp,ts,js,py&perline=3" alt="Languages" />
+      </td>
+      <td valign="top">
+        <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,redux,tailwind,fastapi&perline=3" alt="Frameworks" />
+      </td>
+      <td valign="top">
+        <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb" alt="Databases" /><br>
+        <img src="https://skillicons.dev/icons?i=redis,supabase" alt="Databases" />&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/clickhouse/clickhouse-original.svg" width="48" height="48" alt="ClickHouse" />
+      </td>
+      <td valign="top">
+        <img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,aws,git,githubactions,linux,postman,rabbitmq,kafka&perline=3" alt="DevOps" />
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 <h1></h1>
 
