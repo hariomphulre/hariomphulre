@@ -27,7 +27,7 @@
 </pre>
 </h3>
 
-<!-- <h3>About Me</h3>
+<h3>About Me</h3>
 <table border="0">
   <tr>
     <td valign="top">
@@ -50,7 +50,7 @@
 </pre>
     </td>
   </tr>
-</table> -->
+</table>
 
 <h1></h1>
 
