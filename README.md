@@ -1,6 +1,6 @@
 
 <h1 align="center"><strong>Hello, I'm Hariom Phulre</strong></h1>
-<p align="center">Software Engineer | Competitve Programmer</p>
+<p align="center">Software Engineer | Competitive Programmer</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/hariom-phulre/"><img src="https://img.shields.io/badge/LinkedIn-001AFF?style=for-the-badge&logo=linkedin&logoColor=blue" /></a>
