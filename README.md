@@ -27,30 +27,12 @@
 </pre>
 </h3>
 
-<h3>About Me</h3>
-<table border="0">
-  <tr>
-    <td valign="top">
-      <ul>
-        <li>DSA, React.js, AWS, Linux</li>
-        <li>B.E. in Computer Engineering (2024 - 2028)</li>
-        <li>Dr. D.Y. Patil Institute of Technology, Pune</li>
-        <li>CGPA - 9.02 / 10</li>
-      </ul>
-    </td>
-    <td valign="top">
-<pre>
-     .--.      _
-    |o_o |    | |
-    |:_/ |    | |
-   //   \ \   | |
-  (|     | )  |_|
- /'\_   _/`\   _
- \___)=(___/  (_)
-</pre>
-    </td>
-  </tr>
-</table>
+### About Me
+- Distributed Backend Engineer, Full Stack Dev.                        
+- 5x Hackathon & Codeathon Winner                                        
+- B.E. in Computer Engineering (2024 - 2028)                              
+- Dr. D.Y. Patil Institute of Technology, Pune
+- Building Scalable Production Ready Products/Projects  
 
 <h1></h1>
 
