@@ -14,20 +14,7 @@
 <h1></h1>
 
 ### About Me
-<h3>
-<pre>
-- Distributed Backend Engineer, Full Stack Dev.                            .--.      _
-- 5x Hackathon & Codeathon Winner                                         |o_o |    | |
-- B.E. in Computer Engineering (2024 - 2028)                              |:_/ |    | |
-- Dr. D.Y. Patil Institute of Technology, Pune                           //   \ \   | |
-- Building Scalable Production Ready Products/Projects                  (|     | )  |_|
-                                                                       /'\_   _/`\   _
-                                                                       \___)=(___/  (_)
 
-</pre>
-</h3>
-
-### About Me
 - Distributed Backend Engineer, Full Stack Dev.                        
 - 5x Hackathon & Codeathon Winner                                        
 - B.E. in Computer Engineering (2024 - 2028)                              
