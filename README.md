@@ -10,23 +10,23 @@
   <a href="https://www.codechef.com/users/hariom_phulre"><img src="https://img.shields.io/badge/Codechef-001AFF?&style=for-the-badge&logo=Codechef&logoColor=white" /></a>
 </p>
 
-<!--
+
 <h1></h1>
 
 ### About Me
 <h3>
 <pre>
-- DSA/Competitive Programmer                                               .--.      _
-- React.js, AWS, Linux                                                    |o_o |    | |
+- Distributed Backend Engineer, Full Stack Dev.                            .--.      _
+- 5x Hackathon & Codeathon Winner                                         |o_o |    | |
 - B.E. in Computer Engineering (2024 - 2028)                              |:_/ |    | |
 - Dr. D.Y. Patil Institute of Technology, Pune                           //   \ \   | |
-- CGPA - 9.02 / 10                                                      (|     | )  |_|
+- Building Scalable Production Ready Products/Projects                  (|     | )  |_|
                                                                        /'\_   _/`\   _
                                                                        \___)=(___/  (_)
 
 </pre>
 </h3>
--->
+
 <!-- <h3>About Me</h3>
 <table border="0">
   <tr>
