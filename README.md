@@ -9,8 +9,13 @@
   <a href="https://codeforces.com/profile/HariomPhulre"><img src="https://img.shields.io/badge/Codeforces-001AFF?style=for-the-badge&logo=Codeforces&logoColor=white" /></a>
   <a href="https://www.codechef.com/users/hariom_phulre"><img src="https://img.shields.io/badge/Codechef-001AFF?&style=for-the-badge&logo=Codechef&logoColor=white" /></a>
 </p>
-
-
+<p align="center">
+  <a href="https://www.linkedin.com/in/hariom-phulre/"><img src="https://img.shields.io/badge/LinkedIn-151515?style=for-the-badge&logo=linkedin&logoColor=1793D1" /></a>
+  <a href="mailto:hariiomphullre@gmail.com"><img src="https://img.shields.io/badge/Email-151515?style=for-the-badge&logo=gmail&logoColor=1793D1" /></a>
+  <a href="https://leetcode.com/u/Hariom_Phulre/"><img src="https://img.shields.io/badge/LeetCode-151515?style=for-the-badge&logo=LeetCode&logoColor=1793D1" /></a>
+  <a href="https://codeforces.com/profile/HariomPhulre"><img src="https://img.shields.io/badge/Codeforces-151515?style=for-the-badge&logo=Codeforces&logoColor=1793D1" /></a>
+  <a href="https://www.codechef.com/users/hariom_phulre"><img src="https://img.shields.io/badge/Codechef-151515?&style=for-the-badge&logo=Codechef&logoColor=1793D1" /></a>
+</p>
 <h1></h1>
 
 ### About Me
