@@ -17,7 +17,7 @@
 
 - Distributed Backend Engineer & Full Stack Dev.                        
 - 5x Hackathon & Codeathon Winner
-- 1000+ DSA Problems Solved                                   
+- 1000+ DSA Problems Solved, Top 7.6% @Leetcode            
 - Building Scalable Production Ready Products
 - B.E. in Computer Engineering (2024 - 2028)                              
 - Dr. D.Y. Patil Institute of Technology, Pune
