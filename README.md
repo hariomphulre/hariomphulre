@@ -3,7 +3,7 @@
 <p align="center">Software Engineer | Competitive Programmer</p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/hariom-phulre/"><img src="https://img.shields.io/badge/LinkedIn-0000EE?style=for-the-badge&logo=linkedin&logoColor=0000EE" /></a>
+  <a href="https://www.linkedin.com/in/hariom-phulre/"><img src="https://img.shields.io/badge/LinkedIn-0000EE?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:hariiomphullre@gmail.com"><img src="https://img.shields.io/badge/Email-0000EE?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://leetcode.com/u/Hariom_Phulre/"><img src="https://img.shields.io/badge/-LeetCode-0000EE?style=for-the-badge&logo=LeetCode&logoColor=white" /></a>
   <a href="https://codeforces.com/profile/HariomPhulre"><img src="https://img.shields.io/badge/Codeforces-0000EE?style=for-the-badge&logo=Codeforces&logoColor=white" /></a>
